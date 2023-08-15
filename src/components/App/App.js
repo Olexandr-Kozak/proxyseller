@@ -11,12 +11,12 @@ import "./App.css"
 const App = () => {
     return (
         <Routes>
-            <Route path="/" element={<Layout/>}>
+            <Route path="/proxyseller/" element={<Layout/>}>
                 <Route index element={<Home/>}/>
-                <Route path="/posts/:userId" element={<Posts/>}/>
-                <Route path="/post/:postId" element={<Post/>}/>
-                <Route path="/albums/:userId" element={<Albums/>}/>
-                <Route path="/album/:albumId" element={<Album/>}/>
+                <Route path="/proxyseller/posts/:userId" element={<Posts/>}/>
+                <Route path="/proxyseller/post/:postId" element={<Post/>}/>
+                <Route path="/proxyseller/albums/:userId" element={<Albums/>}/>
+                <Route path="/proxyseller/album/:albumId" element={<Album/>}/>
                 <Route path="*" element={<NoMatch/>}/>
             </Route>
         </Routes>

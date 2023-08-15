@@ -9,11 +9,11 @@ const PostTemplate = (props) => {
     useEffect(() => {
         if (props.post) {
             const {title} = props.post;
-            setUrl(`/post/${props.post.id}`);
+            setUrl(`/proxyseller/post/${props.post.id}`);
             setTitle(title);
         } else if (props.album) {
             const {title} = props.album;
-            setUrl(`/album/${props.album.id}`);
+            setUrl(`/proxyseller/album/${props.album.id}`);
             setTitle(title);
         }
     }, [props]);

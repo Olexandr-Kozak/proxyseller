@@ -5,8 +5,8 @@ const User = ({userName, userId}) => {
         <div className="userI border border-1 border-black">
             <div className="h5 mt-3 text-center">{userName}</div>
             <div className="d-flex my-3 align-items-center justify-content-around">
-                <Link to={"/posts/" + userId}   className="btn btn-dark text-white">Posts</Link>
-                <Link to={"/albums/" + userId} className="btn btn-dark text-white">Albums</Link>
+                <Link to={"/proxyseller/posts/" + userId}   className="btn btn-dark text-white">Posts</Link>
+                <Link to={"/proxyseller/albums/" + userId} className="btn btn-dark text-white">Albums</Link>
             </div>
         </div>
     )

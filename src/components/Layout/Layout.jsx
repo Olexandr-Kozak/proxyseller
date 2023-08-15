@@ -10,7 +10,7 @@ const Layout = () => {
                 <nav className="d-flex align-items-center">
                     <ul className="d-flex list-unstyled mb-0">
                         <li className="btn btn-light"><Link className="text-dark text-decoration-none"
-                                                            to="/">Home</Link></li>
+                                                            to="/proxyseller/">Home</Link></li>
                     </ul>
                 </nav>
 
