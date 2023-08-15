@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/proxyseller/static/css/main.a240c550.css",
-    "main.js": "/proxyseller/static/js/main.375e0240.js",
+    "main.js": "/proxyseller/static/js/main.fab44a01.js",
     "index.html": "/proxyseller/index.html",
     "main.a240c550.css.map": "/proxyseller/static/css/main.a240c550.css.map",
-    "main.375e0240.js.map": "/proxyseller/static/js/main.375e0240.js.map"
+    "main.fab44a01.js.map": "/proxyseller/static/js/main.fab44a01.js.map"
   },
   "entrypoints": [
     "static/css/main.a240c550.css",
-    "static/js/main.375e0240.js"
+    "static/js/main.fab44a01.js"
   ]
 }
