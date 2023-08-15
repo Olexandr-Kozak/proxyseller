@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from "react";
+import {Link} from "react-router-dom";
 
 const PostTemplate = (props) => {
 
@@ -30,7 +31,7 @@ const PostTemplate = (props) => {
             <div className="userI border border-1 border-black">
                 <div className="h5 mt-3 text-center">{title}</div>
                 <div className="d-flex my-3 align-items-center justify-content-around">
-                    <a href={url} className="btn btn-dark text-white">More</a>
+                    <Link to={url} className="btn btn-dark text-white">More</Link>
                 </div>
             </div>
         </>

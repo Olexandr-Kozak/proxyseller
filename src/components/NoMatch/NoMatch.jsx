@@ -1,7 +1,7 @@
 const NoMatch =()=>{
     return(
         <div>
-            <h1>Sorry, no such page exists(</h1>
+            <h1>Sorry, no such page exists(Error 404)</h1>
         </div>
     )
 }
